@@ -1,27 +1,47 @@
+<div align="center">
+
 # 🏦 Banking Loan Risk Analysis
 
-## 📌 Project Overview
+### End-to-End Data Analytics Project using Excel | SQL Server | Python | Power BI
 
-This project presents an end-to-end Banking Loan Risk Analysis using Excel, SQL Server, Python, and Power BI. The objective is to analyze customer loan data, identify key factors influencing loan defaults, and provide business insights that support better lending decisions.
-
----
-
-## 🎯 Business Problem
-
-Financial institutions need to identify high-risk customers before approving loans. This project analyzes customer credit profiles, loan characteristics, and repayment behavior to understand the factors associated with loan defaults.
+</div>
 
 ---
 
-## 📊 Dataset Information
+# 📌 Project Overview
 
-- Records: **9,578**
-- Features: **14**
-- Domain: **Banking / Finance**
-- Target Variable: **not_fully_paid**
+This project presents an end-to-end Banking Loan Risk Analysis solution developed using **Excel, SQL Server, Python, and Power BI**. The objective is to analyze customer loan data, identify the major factors contributing to loan defaults, and generate business insights that support data-driven lending decisions.
+
+The project demonstrates the complete Data Analytics workflow—from raw data cleaning and SQL analysis to Python exploratory data analysis (EDA) and an interactive Power BI dashboard.
 
 ---
 
-## 🛠 Tools & Technologies
+# 🎯 Business Problem
+
+Banks process thousands of loan applications every year. Approving loans without understanding customer risk can lead to significant financial losses.
+
+This project helps answer business questions such as:
+
+- Which customers are more likely to default?
+- Does FICO score affect repayment?
+- How does Debt-to-Income (DTI) ratio impact loan default?
+- Which loan purpose has the highest default rate?
+- How can customers be segmented into different risk categories?
+
+---
+
+# 📊 Dataset Information
+
+| Attribute | Details |
+|-----------|----------|
+| Domain | Banking / Finance |
+| Records | 9,578 |
+| Features | 14 |
+| Target Variable | not_fully_paid |
+
+---
+
+# 🛠️ Tools & Technologies
 
 - Microsoft Excel
 - SQL Server
@@ -34,102 +54,231 @@ Financial institutions need to identify high-risk customers before approving loa
 
 ---
 
-## 📂 Project Workflow
+# 🔄 Project Workflow
 
-CSV Dataset
-      ↓
-Excel Data Analysis
-      ↓
-SQL Business Analysis
-      ↓
+```text
+Loan Dataset (CSV)
+        │
+        ▼
+Excel Data Cleaning & Analysis
+        │
+        ▼
+SQL Server Business Queries
+        │
+        ▼
 Python Data Cleaning & EDA
-      ↓
+        │
+        ▼
 Power BI Dashboard
-      ↓
-Business Insights
-
+        │
+        ▼
+Business Insights & Decision Support
+```
 
 ---
 
-## 📁 Project Structure
+# 📂 Project Structure
 
-
+```text
 Banking_Loan_Risk_Analysis/
 │
 ├── data/
+│   └── loan_data.csv
+│
 ├── excel/
+│   └── Loan_Risk_Analysis.xlsx
+│
 ├── sql/
+│   ├── schema.sql
+│   ├── data_import.sql
+│   ├── business_queries.sql
+│   └── advanced_sql.sql
+│
 ├── python/
+│   └── Banking_Loan_Risk_Analysis.ipynb
+│
 ├── powerbi/
+│   └── Banking_Loan_Risk_Analysis.pbix
+│
 ├── dashboard_images/
+│   ├── Executive_Summary.png
+│   ├── Loan_Portfolio_Analysis.png
+│   ├── Customer_Risk_Analysis.png
+│   └── Default_Risk_Analysis.png
+│
 └── README.md
+```
 
+---
 
+# 📈 Power BI Dashboard
 
+## Executive Summary
 
-## 📈 Dashboard Pages
+![Executive Summary](dashboard_images/Executive_Summary.png)
 
-### 1. Executive Summary
+---
+
+## Loan Portfolio Analysis
+
+![Loan Portfolio](dashboard_images/Loan_Portfolio_Analysis.png)
+
+---
+
+## Customer Risk Analysis
+
+![Customer Risk](dashboard_images/Customer_Risk_Analysis.png)
+
+---
+
+## Default & Risk Analysis
+
+![Default Risk](dashboard_images/Default_Risk_Analysis.png)
+
+---
+
+# 📊 Dashboard Features
+
+### Executive Summary
+
 - Total Loan Applications
 - Default Rate
 - Repayment Rate
 - Loan Purpose Distribution
 - Interactive Slicers
 
-### 2. Loan Portfolio Analysis
+### Loan Portfolio Analysis
+
 - Average Interest Rate
 - Average Installment
-- Credit Policy Analysis
+- Credit Policy Distribution
 - Loan Purpose Analysis
 
-### 3. Customer Risk Analysis
-- FICO Score Distribution
-- DTI Distribution
+### Customer Risk Analysis
+
+- Average FICO Score
+- Average Debt-to-Income Ratio
+- FICO Band Distribution
+- DTI Band Distribution
 - Default Rate by FICO Band
 - Default Rate by DTI Band
 
-### 4. Default & Risk Analysis
+### Default & Risk Analysis
+
 - Default Rate by Loan Purpose
 - Revolving Utilization Analysis
 - Credit Inquiry Analysis
-- Risk Segmentation
+- Delinquency Analysis
+- Public Records Analysis
+- Customer Risk Segmentation
 
 ---
 
-## 🔍 Key Business Insights
+# 🔍 Key Business Insights
 
-- Customers with lower FICO scores have a higher probability of default.
-- Higher Debt-to-Income (DTI) ratios are associated with increased loan default risk.
+- Customers with lower FICO scores are more likely to default.
+- Higher Debt-to-Income (DTI) ratios increase the probability of loan default.
 - Small Business loans have the highest default rate.
-- Customers with higher revolving credit utilization tend to default more frequently.
-- Recent credit inquiries are higher among defaulted customers.
+- Customers with higher revolving credit utilization are more likely to default.
+- Defaulted customers generally have more recent credit inquiries.
 - Most approved loans satisfy the bank's credit policy requirements.
 
 ---
 
-## 📊 Skills Demonstrated
+# 📈 SQL Analysis
+
+Business queries performed include:
+
+- Total Loan Applications
+- Default Rate Analysis
+- Loan Purpose Analysis
+- Interest Rate Analysis
+- Installment Analysis
+- Credit Policy Analysis
+- FICO Analysis
+- DTI Analysis
+- Revolving Utilization Analysis
+- Credit Inquiry Analysis
+- CTEs
+- Window Functions
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- Risk Segmentation
+- Top N Analysis
+- Views
+
+---
+
+# 🐍 Python Analysis
+
+Performed using:
+
+- Pandas
+- NumPy
+- Matplotlib
+
+Analysis includes:
 
 - Data Cleaning
+- Missing Value Analysis
+- Duplicate Detection
 - Exploratory Data Analysis (EDA)
-- SQL Business Queries
-- Window Functions
-- Common Table Expressions (CTEs)
-- Data Visualization
-- DAX Measures
-- Dashboard Development
-- Business Intelligence
-- Financial Risk Analysis
+- Loan Purpose Analysis
+- Default Distribution
+- Correlation Analysis
+- Business Insights
 
 ---
 
-## 🚀 Future Improvements
+# 📊 Power BI Features
 
-- Predictive Machine Learning Model
-- Automated Data Refresh
+- Interactive Dashboard
+- KPI Cards
+- DAX Measures
+- Slicers
+- Page Navigation
+- Drill-down Analysis
+- Risk Segmentation
+- Business KPIs
+
+---
+
+# 💼 Skills Demonstrated
+
+- Data Cleaning
+- Data Transformation
+- SQL Query Writing
+- Exploratory Data Analysis (EDA)
+- Business Intelligence
+- Dashboard Development
+- DAX
+- Data Visualization
+- Financial Risk Analysis
+- Problem Solving
+
+---
+
+# 🚀 Future Improvements
+
+- Machine Learning Loan Default Prediction
 - Live SQL Database Connection
 - Power BI Service Deployment
+- Automated Dashboard Refresh
+- Real-time Loan Monitoring
 
 ---
+
+# 👩‍💻 Author
+
+**Bhavana**
+
+End-to-End Data Analytics Project using Excel, SQL Server, Python, and Power BI.
+
+---
+
+# ⭐ If you found this project useful, consider giving it a Star!
+
 
 ## 👩‍💻 Author
 

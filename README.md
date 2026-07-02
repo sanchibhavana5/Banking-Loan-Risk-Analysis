@@ -277,11 +277,7 @@ End-to-End Data Analytics Project using Excel, SQL Server, Python, and Power BI.
 
 ---
 
-# ⭐ If you found this project useful, consider giving it a Star!
 
 
-## 👩‍💻 Author
 
-**Bhavana**
 
-End-to-End Data Analytics Project using Excel, SQL Server, Python, and Power BI.

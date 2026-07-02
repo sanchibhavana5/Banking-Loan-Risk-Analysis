@@ -287,7 +287,7 @@ ORDER BY Default_Rate_Percentage ASC;
 -- loans have the highest default rate (27.79%) and require
 -- stricter credit evaluation.
 
---Module 4 – Credit Behaviour Analysis
+--Module 4 Â– Credit Behaviour Analysis
 --Business Query 16 Do customers with higher revolving balances default more?
 
 
